@@ -20,4 +20,5 @@ const obj = {
                 "City":"Islamabad"    
             }
 
-console.log(boy_name)
+// console.log(boy_name)
+console.log(obj)
