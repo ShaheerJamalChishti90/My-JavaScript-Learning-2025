@@ -24,8 +24,73 @@
 // }
 
 
-let myname = 'Shaheer';
+// let myname = 'Shaheer';
 
-for (let char of myname) {
-    console.log(char);
-}
+// for (let char of myname) {
+//     console.log(char);
+// }
+
+// for (let i = 0; i <= 5; i ++) {
+//     console.log(i)
+// }
+
+// for (let i = 1; i <= 5; i ++) {
+//     console.log(i)
+// }
+
+// for (let i = 10; i >= 0; i--) {
+//     console.log(i)
+// }
+// console.log("Pakistan Zindabad")
+
+
+// for (let i = 2; i <= 20; i += 2) {
+//     console.log(i)
+// }
+
+// for (let i = 20; i >= 0; i -= 2) {
+//     console.log(i)
+// }
+// console.log("Twenty sec count down")
+
+// let mycountry = "Pakistan"
+
+// for (let i = 0; i < mycountry.length; i++ ) {
+//     console.log(mycountry[i])
+// }
+
+// for (let i = 0; i <= 10; i ++) {
+//     console.log(i)
+//     if (i == 9) {
+//         console.log(`Shaheer's Birthday Below`)
+//     }
+// }
+
+
+// for (let i = 0; i <= 10; i ++) {
+//     if (i == 9) {
+//         continue;
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
+
+// for (let i = 0; i <= 10; i ++) {
+//     if (i == 9) {
+//         break;
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
+
+
+// for (let i = 1; i <= 30; i ++) {
+//     if (i == 9) {
+//         console.log(`${i}: Shaheer's Birthday`)
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
