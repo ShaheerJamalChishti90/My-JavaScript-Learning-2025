@@ -94,3 +94,19 @@
 //         console.log(i)
 //     }
 // }
+
+// Print the even numbers between 2 and 20.
+// console.log("Even Numbers from 2-20")
+// for (let n = 0; n <= 20; n += 2) {
+//     console.log(`${n}`)
+// }
+
+// console.log("Table of 2")
+// for (let n = 1; n <= 20; n ++) {
+//     console.log(`2 x ${n} = ${n * 2}`)
+// }
+
+// Print the square of numbers from 1 to 5. (Example: 1, 4, 9, 16, 25)
+// for (let i = 1; i <= 5; i ++) {
+//     console.log(i ** 2)
+// };
