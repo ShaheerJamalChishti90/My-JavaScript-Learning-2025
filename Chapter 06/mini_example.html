@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Practice</title>
+  <script src="mini_example.js"></script>
+</head>
+<body>
+  <h1 id="title">I am learning DOM!</h1>
+  <p class="message">First message</p>
+  <p class="message">Second message</p>
+  <button id="btn">Click Me</button>
+
+    <script>
+    // Grab elements
+    let heading = document.getElementById("title");
+    let firstMsg = document.querySelector(".message");
+    let allMsgs = document.querySelectorAll(".message");
+    let button = document.getElementById("btn");
+
+    // Change text
+    heading.innerHTML = "DOM is fun!";
+
+    // Change style
+    firstMsg.style.color = "red";
+
+    // Add event (when button is clicked)
+    button.onclick = function() {
+      allMsgs.forEach(msg => {
+        msg.style.fontSize = "24px";
+      });
+    };
+  </script>
+</body>
+</html>
